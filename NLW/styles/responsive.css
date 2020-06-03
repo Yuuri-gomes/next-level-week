@@ -53,11 +53,3 @@
         height: 20px;
     }
 }
-
-@media (max-width: 420px) {
-    #page-home header a {
-        position: absolute;
-        bottom: 0px;
-        top: 2;
-    }
-}
