@@ -67,7 +67,7 @@ form .field-group {
 }
 
 form input,form select {
-    background-color: #f0f0f5;
+    background-color: var(--modal-input);
     border: 0;
     padding: 16px 24px;
     font-size: 16px;
@@ -117,9 +117,9 @@ form button:hover {
 }
 
 .items-grid li {
-    background-color: #f5f5f5;
+    background-color: var(--modal-input);
     list-style: none;
-    border: 2px solid #f5f5f5;
+    border: 2px solid var(--modal-input);
     border-radius: 8px;
     height: 180px;
     padding: 32px 24px 16px;

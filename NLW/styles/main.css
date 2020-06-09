@@ -1,6 +1,7 @@
 :root {
     --title-color : #322153;
     --primary-color: #34cb79;
+    --modal-input: #f0f0f5;
 }   
 
 * {
@@ -14,7 +15,7 @@ html {
 }
 
 body {
-    background: #f0f0f5;
+    background: var(--modal-input);
     -webkit-font-smoothing: antialiased;
 }
 
